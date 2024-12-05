@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="image">
+      <img src="assets/background.jpg" >
+    </div>
+    <!-- header start -->
+    <header class="head"><a href="#" class="logo">NETFLIX</a>
+    <a href="login.html">Sign In</a>
+    </header>
+    <!-- header ends -->
+    <div class="page">
+      <!--page class-->
+      <form>
+        <!--form starts here-->
+        <h3>Sign In</h3>
+        <!--heading-->
+        <input
+          type="text"
+          placeholder="Email or mobile number"
+          class="form-control"
+        /><br />
+        <input type="password" placeholder="Password" class="form-control" />
+        <div class="btn">
+          <!--sign in btn class -->
+          <button onclick="document.location='login.html'" class="a">Sign In</button><br />
+          <p>OR</p>
+          <button class="b">Use a Sign-In Code</button><br />
+          <a href="2nd.html">Forgot password?</a
+          ><!--next page-->
+          <br />
+        </div>
+        <input type="checkbox" id="box" class="chkbox" />
+        <label for="box">Remember me</label>
+        <div class="btn2">
+          <!--sign up button here-->
+          <p>New to Netflix?</p>
+          <button>Sign up now.</button><br />
+        </div>
+        <div class="btn3">
+          <!--reCAPTHCA and Learn more button-->
+          <pre>This page is protected by Google reCAPTCHA to 
+ensure that you're not a bot.<a href="#">Learn more.</a> </pre>
+        </div>
+      </form>
+      <!--form ends-->
+    </div>
+  </body>
+</html>
